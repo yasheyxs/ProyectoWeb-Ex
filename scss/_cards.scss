@@ -1,0 +1,57 @@
+.comidas {
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 35rem);
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .box-container .box {
+        padding: 2rem;
+        background: #fff;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+        border: 0.1rem solid rgba(0, 0, 0, 0.3);
+        border-radius: 0.5rem;
+        text-align: center;
+        position: relative;
+
+    img {
+        height: 20rem;
+        object-fit: cover;
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+
+    .price {
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        background: #FAC30C;
+        color: #fff;
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+    }
+
+    h3 {
+        color: #333;
+        font-size: 2.5rem;
+        padding-top: 1rem;
+    }
+
+    p {
+        color: #333;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    &:hover {
+        background-color: #222;
+        h3,
+        p {
+        color: #fff;
+        }
+    }
+}
+}

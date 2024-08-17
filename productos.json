@@ -1,0 +1,136 @@
+{
+    "categories": [
+        {
+            "name": "Hamburguesas",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Hamburguesa Completa",
+                    "price": 2000,
+                    "image": "../imgs/hamburguesacompleta.webp",
+                    "description": "Esta delicia contiene carne, queso tybo, tomate, lechuga, pepinillos y mayonesa"
+                },
+                {
+                    "id": 2,
+                    "name": "Hamburguesa Doble",
+                    "price": 2500,
+                    "image": "../imgs/hamburguesadoble.webp",
+                    "description": "Esta delicia contiene doble carne, queso cheddar, panceta y la salsa de la casa"
+                },
+                {
+                    "id": 3,
+                    "name": "Hamburguesa Halloween",
+                    "price": 2500,
+                    "image": "../imgs/hamburguesahalloween.webp",
+                    "description": "Esta delicia contiene pan negro, carne, queso tybo, tomate, lechuga y mayonesa"
+                },
+                {
+                    "id": 4,
+                    "name": "Hamburguesa Panceta",
+                    "price": 3000,
+                    "image": "../imgs/hamburguesapanceta.webp",
+                    "description": "Esta delicia contiene carne, queso cheddar, panceta, tomate, lechuga y mayonesa"
+                }
+            ]
+        },
+        {
+            "name": "Empanadas",
+            "products": [
+                {
+                    "id": 5,
+                    "name": "Empanada Dulce",
+                    "price": 300,
+                    "image": "../imgs/dulce.webp",
+                    "description": "El sabor de la empanada dulce más casera (con pasas)"
+                },
+                {
+                    "id": 6,
+                    "name": "Empanada Salada",
+                    "price": 300,
+                    "image": "../imgs/salda.webp",
+                    "description": "El sabor de la empanada salada más casera"
+                },
+                {
+                    "id": 7,
+                    "name": "Empanada Árabe",
+                    "price": 300,
+                    "image": "../imgs/arabe.webp",
+                    "description": "El sabor de la empanada árabe más casera"
+                },
+                {
+                    "id": 8,
+                    "name": "Empanada de Pollo",
+                    "price": 300,
+                    "image": "../imgs/pollo.webp",
+                    "description": "El sabor de la empanada de pollo más casera"
+                }
+            ]
+        },
+        {
+            "name": "Bebidas",
+            "products": [
+                {
+                    "id": 9,
+                    "name": "Sprite",
+                    "price": 1000,
+                    "image": "../imgs/sprite.webp",
+                    "description": "La clásica, la más refrescante"
+                },
+                {
+                    "id": 10,
+                    "name": "Coca Cola",
+                    "price": 1000,
+                    "image": "../imgs/cocacola.webp",
+                    "description": "La clásica, la más refrescante"
+                },
+                {
+                    "id": 11,
+                    "name": "Fanta",
+                    "price": 1000,
+                    "image": "../imgs/fanta.webp",
+                    "description": "La clásica, la más refrescante"
+                },
+                {
+                    "id": 12,
+                    "name": "Cerveza",
+                    "price": 1500,
+                    "image": "../imgs/cerveza.webp",
+                    "description": "Deliciosa cerveza artesanal"
+                }
+            ]
+        },
+        {
+            "name": "Postres",
+            "products": [
+                {
+                    "id": 13,
+                    "name": "Cheesecake",
+                    "price": 1500,
+                    "image": "../imgs/torta.webp",
+                    "description": "Una porción del mejor cheesecake"
+                },
+                {
+                    "id": 14,
+                    "name": "Helado",
+                    "price": 700,
+                    "image": "../imgs/helado.webp",
+                    "description": "Una sabrosa bocha del mejor helado artesanal"
+                },
+                {
+                    "id": 15,
+                    "name": "Brownies",
+                    "price": 1000,
+                    "image": "../imgs/brownies.webp",
+                    "description": "Caseros, deliciosos y chocolatosos brownies"
+                },
+                {
+                    "id": 16,
+                    "name": "Tiramisú",
+                    "price": 1500,
+                    "image": "../imgs/tiramisu.webp",
+                    "description": "Clásico manjar para los amantes del sabor a café"
+                }
+            ]
+        }
+    ]
+}

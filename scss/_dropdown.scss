@@ -1,0 +1,38 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+        z-index: 1;
+        left: 0;
+        padding: 0;
+        opacity: 0;
+        transform: translateY(-10px);
+        max-height: none;
+        overflow-y: visible;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+
+    &:hover {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+        a {
+            padding: 1rem;
+            text-decoration: none;
+            color: #666;
+            display: block;
+            transition: color 0.3s;
+
+            &:hover {
+            color: #FAC30C;
+            }
+        }
+    }
+}

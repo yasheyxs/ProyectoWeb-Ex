@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piccolo Burgers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../scss/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap">    
+</head>
+<body>
+    <header>
+        <a href="../html/privatehome.html" class="logo"><img src="../imgs/image.webp" alt="icono piccolo">Piccolo</a>
+        <div class="navbar"></div> 
+    </header>
+
+    <section class="comidas" id="comidas">
+        <h1 class="heading"> Te ofrecemos nuestras <span>especialidades</span> </h1>
+        <div class="box-container" id="productcontainerEmpa"></div>
+    </section>
+
+    <footer class="footer" id="contacto">
+        <section>
+            <div class="share">
+                <a href="https://www.facebook.com/" class="btn" target="_blank">Facebook</a>
+                <a href="https://twitter.com/" class="btn" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/" class="btn" target="_blank">Instagram</a>
+                <a href="https://www.pinterest.com/" class="btn" target="_blank">Pinterest</a>
+                <a href="https://www.linkedin.com/" class="btn" target="_blank">Linkedin</a>
+            </div>
+            <h1 class="credit"> Creado por <span> Jazmin Abigail Gaido</span></h1>
+        </section>
+    </footer> 
+
+    <script src="../indexStruct.js"></script>
+    <script src="../script.js"></script>
+    <script>
+        renderProducts("productcontainerEmpa", "Empanadas");
+    </script>
+</body>
+</html>

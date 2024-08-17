@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login y Registro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../scss/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap">
+</head>
+<body>
+    <div class="content-container">
+        <div id="login-form-container" class="form">
+            <h2>Login</h2>
+            <form id="login-form" onsubmit="handleLogin(event)">
+                <input type="email" id="login-email" placeholder="Email" required autocapitalize="off">
+                <input type="password" id="login-password" placeholder="Contraseña" required>
+                <button type="submit" id="login-button">Iniciar Sesión</button>
+            </form>
+        </div>
+
+        <div id="register-form-container" class="form">
+            <h2>Registro</h2>
+            <form id="register-form" onsubmit="handleRegistration(event)">
+                <input type="text" id="register-firstname" placeholder="Nombre" required autocapitalize="on">
+                <input type="text" id="register-lastname" placeholder="Apellido" required autocapitalize="on">
+                <input type="email" id="register-email" placeholder="Email" required autocapitalize="off">
+                <input type="password" id="register-password" placeholder="Contraseña" required>
+                <input type="date" id="register-birthdate" required>
+                <button type="submit" id="register-button">Registrarse</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

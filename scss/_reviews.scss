@@ -1,0 +1,46 @@
+.review {
+    .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 35rem);
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1.5rem;
+
+    .box {
+        text-align: center;
+        padding: 2rem;
+        border: 0.8rem solid #fff;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+        border-radius: 0.5rem;
+        background: #333;
+        margin-top: 6rem;
+
+        img {
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            border: 0.8rem solid #fff;
+            margin-top: -8rem;
+            object-fit: cover;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+            color: #fff;
+            padding: 0.5rem 0;
+        }
+
+        .stars i {
+            font-size: 2rem;
+            color: #FAC30C;
+            padding: 0.5rem 0;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #eee;
+            padding-top: 1rem;
+            line-height: 1.8;
+        }
+    }
+}}

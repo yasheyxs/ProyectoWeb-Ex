@@ -1,0 +1,40 @@
+input[type="number"] {
+    text-align: center;
+    font-size: 2rem;
+    border: none;
+    background-color: #fff;
+    color: #FAC30C;
+}
+
+input[type="number"]::-webkit-inner-spin-button, //parte interior del boton
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    color: #FAC30C;
+    background-color: #fff;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.decrement {
+    padding: 1rem 0.5rem 0.5rem 1.5rem;
+    border-radius: 3rem 0 0 3rem;
+}
+
+.increment {
+    padding: 1rem 1.5rem 0.5rem 0.5rem;
+    border-radius: 0 3rem 3rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comidas .box-container .box:hover .container button, .comidas .box-container .box:hover .container input[type="number"] {
+    background-color: rgba(0, 0, 0, 0.1);}
